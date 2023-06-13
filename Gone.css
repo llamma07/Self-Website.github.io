@@ -1,0 +1,140 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 55%;
+  }
+  
+  .Subtitle {
+    margin-left: 337px;
+  }
+  
+  .container {
+    max-width: 16000px;
+    margin: auto;
+  }
+  
+  li{
+    font-size: 20px;
+  }
+
+  head li,
+  a,
+  button {
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    color: #671550;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 37px 25px;
+    height: 40px;
+    background-color: #4769a6;
+  }
+  
+  .list {
+    display: inline-block;
+    margin-right: 50px;
+    padding: 0px 20px;
+  }
+  
+  a {
+    transition: all 0.5s;
+    font-size: 20px;
+  }
+  
+  a:hover {
+    color: #c02f2a;
+  }
+  button {
+    padding: 9px 25px;
+    transition: all 0.5s;
+    border-radius: 50px;
+    background-color: #671550;
+    color: #4769a6;
+    margin-right: 50px;
+    border: 1px solid #c02f2a;
+  }
+  
+  button:hover {
+    color: #671550;
+    text-decoration: none;
+    background-color: #4769a6;
+    border: 1px solid #671550;
+  }
+  
+  .title {
+    padding-right: 100px;
+    color: #4769a6;
+    font-size: 35px;
+    padding-left: 50px;
+    -webkit-text-stroke-color:#671550;
+    -webkit-text-stroke-width: 2px;
+  }
+  
+  .Body {
+    margin-top: 40px;
+    margin-right: 250px;
+    margin-left: 250px;
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  
+  h3 {
+    display: inline-block;
+  }
+  
+  .Cast {
+    float: right;
+    padding-right: 625px;
+    margin-top: 5px;
+  }
+
+  
+  iframe {
+    margin-top: 50px;
+    margin-left: 500px;
+  }
+  
+h2{
+  color: #671550;
+}
+
+h3{ 
+  color: #c02f2a;
+  display: inline;
+}
+
+.Crew p{
+  display: inline;
+}
+
+body p{
+  color: #4769a6;
+}
+
+body li {
+  color: #4769a6;
+}
+
+button{
+  cursor: pointer;
+}

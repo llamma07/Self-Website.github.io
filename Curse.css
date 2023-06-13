@@ -1,0 +1,134 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  head li,
+  a,
+  button {
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    color: #ebf0f2;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 37px 25px;
+    height: 40px;
+   background-color:#11232e;
+  }
+  
+  .list {
+    display: inline-block;
+    margin-right: 50px;
+    padding: 0px 20px;
+  }
+  
+nav{
+    margin-left: 62px;
+  }
+
+  a {
+    transition: all 0.5s;
+    font-size: 20px;
+  }
+  
+  a:hover {
+    color: #738ea8;
+  }
+  button {
+    padding: 9px 25px;
+    transition: all 0.5s;
+    border-radius: 50px;
+    color: #11232e;
+    margin-right: 50px;
+    background-color: white;
+    border: none;
+  }
+  
+  button:hover {
+    color: white;
+    background-color: #11232e;
+    border: 1px solid white;
+  }
+  .Name{
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #11232e;
+  }
+  .Name:hover{
+    font-style: italic;
+  }
+  
+  .title {
+    color: #11232e;
+    font-size: 32px;
+    padding-left: 100px;
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 1px;
+  }
+  
+  .Body {
+    padding-left: 200px;
+    padding-right: 200px;
+    font-size: 20px;
+    margin: 10px;
+    color:#0f0c5f;
+  }
+  
+  img{
+    float: left;
+    height: 280px;
+    margin-right: 30px;
+    margin-bottom: 15px;
+  }
+  h2{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 40px;
+  }
+  
+  .heading{
+   color: white;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #11232e;
+  border-bottom: 2px solid #0f0c5f;
+  border-width: 4px;
+  margin-right: 350px;
+  margin-left: 350px;
+  padding-bottom: 10px;
+  }
+  
+  .Written_by {
+  text-align: center;
+  margin-bottom: 20px;
+  }
+  
+  h3{
+font-size: larger;
+    display: inline;
+    color: white;
+    -webkit-text-stroke-width: 1.2px;
+    -webkit-text-stroke-color: #11232e;
+  }
+  .inline{
+    display: inline;
+  }
+  
+  .Body {
+    padding-left: 220px;
+    padding-right: 220px;
+    font-size: 20px;
+    margin: 10px;
+  }

@@ -1,0 +1,97 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  padding: 0px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+head li,
+a,
+button {
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: none;
+  color: #fca321;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 37px 25px;
+  height: 40px;
+  background-color: #14213d;
+}
+
+.list {
+  display: inline-block;
+  margin-right: 50px;
+  padding: 0px 20px;
+}
+
+a {
+  transition: all 0.5s;
+  font-size: 20px;
+}
+
+a:hover {
+  color: rgb(255, 255, 255);
+}
+button {
+  padding: 9px 25px;
+  transition: all 0.5s;
+  border-radius: 50px;
+  color: #14213d;
+  margin-right: 50px;
+  background-color: #fca321;
+}
+
+button:hover {
+  color: #fca321;
+  background-color: #14213d;
+}
+
+.title {
+  color: #14213d;
+  font-size: 30px;
+  padding-left: 50px;
+  -webkit-text-stroke-color: #fca321;
+  -webkit-text-stroke-width: 0.5px;
+}
+
+.Body {
+  padding-left: 220px;
+  padding-right: 220px;
+  font-size: 20px;
+  margin: 10px;
+}
+
+.Headshot {
+  float: right;
+  height: 250px;
+  margin-left: 20px;
+}
+
+.Inception {
+  float: left;
+  height: 250px;
+  margin-right: 20px;
+}
+
+.smtg {
+  text-align: center;
+  color: #fca321;
+  font-size: 45px;
+  -webkit-text-stroke-color: #14213d;
+  -webkit-text-stroke-width: 1.5px;
+  text-shadow: 0px 0px 35px #14213d;
+  border-bottom: 5px solid #14213d;
+  margin-right: 200px;
+  margin-left: 200px;
+  padding-bottom: 20px;
+}
