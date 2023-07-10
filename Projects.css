@@ -10,7 +10,8 @@
   }
   
   body {
-    background-image: url(https://m.media-amazon.com/images/M/MV5BMTMxNjA5MzkzN15BMl5BanBnXkFtZTcwNjU5NDIyMw@@._V1_.jpg);
+    background-image: url(https://m.media-amazon.com/images/M/MV5BMTMxNjA5MzkzN15BMl5BanBnXkFtZTcwNjU5NDIyMw@@._V1_.jpg) ;
+    background-repeat: no-repeat;
     background-size: 130%;
     background-position: -355px -270px;}
     /*background-position: -90px 0px;
@@ -54,3 +55,9 @@
   }
   div {
     margin-left: 55px;}
+
+    p{
+      margin-top: 240px;
+      margin-right: 1300px;
+       color: white;
+     }

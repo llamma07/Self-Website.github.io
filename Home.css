@@ -11,6 +11,7 @@
 
 body {
   background-image: url(https://papers.co/wallpaper/papers.co-mn77-florian-klauer-type-writer-minimal-36-3840x2400-4k-wallpaper.jpg);
+  background-repeat: no-repeat;
   background-size: 100%;
   background-size: cover;
   background-position: 15px -70px;
